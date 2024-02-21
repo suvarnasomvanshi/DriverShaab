@@ -25,7 +25,7 @@ const Vertical_Text = ({text,color}) => {
         fontSize: "18px",
         lineHeight: "27px",
         textAlign: "center",
-        marginTop: "70px",
+        marginTop: "10px",
       }}
     >
     {text}

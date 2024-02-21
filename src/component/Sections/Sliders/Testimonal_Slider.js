@@ -8,14 +8,15 @@ import { slideContents_testimonial } from "../../../utils/Contants";
 const Testimonal_Slider = () => {
   const settings = {
     dots: true,
-    infinite: true,
+    infinite: false,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
     centerMode: true,
+    centerPadding: "1%",
     appendDots: (dots) => (
       <div style={{ marginBottom: "0px" }}>
-        <ul style={{ margin: "0px", padding: "0px" }}> {dots} </ul>
+        <ul style={{ margin: "1px", padding: "0px" }}> {dots} </ul>
       </div>
     ),
   };

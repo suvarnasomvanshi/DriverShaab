@@ -31,6 +31,7 @@ const Service_Section = () => {
         <div
           style={{
             maxWidth: "1200px",
+            width:"100vw",
             display: "flex",
             alignItems: "center",
             justifyContent: "center",

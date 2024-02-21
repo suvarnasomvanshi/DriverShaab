@@ -61,9 +61,13 @@ const App = () => {
       <AppBar
         position="fixed"
         className="app-bar"
-        style={{ background: "#121212", padding: "10px" }}
+        style={{
+           background: "#121212",
+           padding: "10px",
+          
+           }}
       >
-        <Toolbar>
+        <Toolbar sx={{width:"100vw"}}>
           <Box sx={{ display: "flex", flexDirection: "row", flexGrow: 1 }}>
             <img src="Frame 3971.png" alt="img" style={{}} />
           </Box>

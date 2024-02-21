@@ -15,10 +15,10 @@ function SimpleSlider() {
     slidesToShow: 1,
     slidesToScroll: 1,
     centerMode: true, 
-    centerPadding: "11%",
+    centerPadding: "1%",
   };
 
-  console.log(styles_Service.sec_service_img)
+  // console.log(styles_Service.sec_service_img)
   
 
   return (

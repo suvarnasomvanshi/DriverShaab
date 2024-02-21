@@ -32,10 +32,11 @@ const AccordionBlock = ({ title, content, isActive, onClick }) => (
 );
 
 const FaqSection = () => {
-  const [active, setActive] = useState("First");
+  const [active, setActive] = useState(null);
+  
 
   const handleAccordionClick = (accordionKey) => {
-    setActive(accordionKey);
+    setActive(active === accordionKey ? null : accordionKey);
   };
 
   return (
@@ -53,7 +54,7 @@ const FaqSection = () => {
         <section className="faq-section" style={{ maxWidth: "1200px" }}>
           <div className="auto-container">
             <div className="text-center mb-4">
-              <p style={faq_heading}>FREQUENTLY ASKED QUESTIONS </p>
+              <p style={faq_heading}>FREQUENTLY ASKED QUESTIONS</p>
             </div>
             <div className="col-lg-12">
               <ul className="accordion-box">

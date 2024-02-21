@@ -74,7 +74,7 @@ export const slideContents_Service = [
       // margin: '20px'
     },
     card_container_style: {
-      width:"60vw",
+      // width:"60vw",
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'center',
@@ -302,7 +302,7 @@ export const slideContents_Service = [
       sm: "38.4px",
     },
     textAlign: "center",
-    color:"#FFFFF",
+    color:"#FFFFFF",
     textTransform: "uppercase",
   };
   export const ContactForm_text_Styles = {
@@ -336,15 +336,17 @@ export const slideContents_Service = [
     color:"#00000"
   };
   export const ContactForm_form_container_styles={
-    display:"flex", 
+    // display:"flex", 
     alignItems:'center',
     justifyContent:"center",
     flexDirection:"column",
+    width:{xs:"100vw", md:"80vw"},
     gap:{md:"40px",xs:"11px"},
     padding:{
         xs:["11px","0px","11px","0px"],
         md:["96px","24px","93px","24px"]
-    }
+    },
+
   }
   export const ContactForm_container_styles ={
     display: "flex",

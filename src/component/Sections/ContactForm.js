@@ -43,11 +43,14 @@ const ContactForm = () => {
       }}
     >
     <Grid container sx={ContactForm_container_styles}>
+
     <Grid item md={1} sx={{display:"flex",justifyContent:"center"}}> 
-    <Vertical_Text  color={"#F0F0F0"} text={"Contact us"}/>
+         <Vertical_Text  color={"#F0F0F0"} text={"Contact us"}/>
     </Grid>
-    <Grid item md={11} sx={{}}>
+
+    <Grid md={11} sx={{}}>
     
+      {/* <Grid container sx={ContactForm_form_container_styles}> */}
       <Grid container sx={ContactForm_form_container_styles}>
         <Grid item xs={12} md={6} lg={6}>
           <Typography sx={ContactForm_heading_text_Styles}>GET IN TOUCH</Typography>
@@ -60,8 +63,8 @@ const ContactForm = () => {
                 flexDirection: "column",
                 gap: "27px",
               }}>
-          <form onSubmit={handleSubmit} style={{display:"flex", alignItems:'center',justifyContent:"center",width:"100vw",maxWidth:"1200px"}}>
-            <Grid xs={6} sm={6} md={5} lg={4}
+          <form onSubmit={handleSubmit} style={{display:"flex", alignItems:'center',justifyContent:"center",maxWidth:"1200px",width:"100vw",}}>
+            <Grid xs={10} sm={7} md={5} lg={4}
               sx={{
                 display: "flex",
                 alignItems: "center",

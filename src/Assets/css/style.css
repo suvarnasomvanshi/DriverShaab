@@ -1460,7 +1460,7 @@ img {
   grid-template-columns: 1fr 1fr;
   place-content: center;
   position: relative;
-  padding-top: 25px;
+  padding-top: 0px;
   padding-bottom: 25px;
 
 }
@@ -10349,6 +10349,7 @@ section.error-section .text {
 .accordion-box {
   position: relative;
   margin-bottom: 30px;
+  
 }
 
 .accordion-box .block {
